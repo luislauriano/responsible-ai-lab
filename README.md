@@ -95,8 +95,10 @@ Balancing: imbalanced-learn (SMOTE, NearMiss)
 ### 🤝 Contribution & Contact
 I am open to discussions about AI Ethics, Algorithmic Fairness, and Research Collaborations.
 
-Author: [Luis Vinicius Lauriano de França]
+Author: Luis Vinicius Lauriano de França
 
-LinkedIn: [https://www.linkedin.com/in/luislauriano/]
+LinkedIn: https://www.linkedin.com/in/luislauriano/
+
+CV: eltitolab.com
 
 Research Focus: Bias Mitigation, XAI, LLM Ethics.
