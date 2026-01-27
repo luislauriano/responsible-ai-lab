@@ -99,6 +99,6 @@ Author: Luis Vinicius Lauriano de França
 
 LinkedIn: https://www.linkedin.com/in/luislauriano/
 
-CV: eltitolab.com
+CV: https://eltitolab.com/
 
 Research Focus: Bias Mitigation, XAI, LLM Ethics.
