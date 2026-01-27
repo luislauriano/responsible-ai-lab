@@ -97,7 +97,7 @@ I am open to discussions about AI Ethics, Algorithmic Fairness, and Research Col
 
 Author: Luis Vinicius Lauriano de França
 
-LinkedIn: https://www.linkedin.com/in/luislauriano/
+LinkedIn: https://linkedin.com/in/luislauriano/
 
 CV: https://eltitolab.com/
 
