@@ -81,6 +81,8 @@ Development of a Language-Agnostic Causal Metric: Design and validate a novel bi
 🚧 Content in this section is currently under active development.
 
 ### 🛠️ Tech Stack
+
+```text
 Language: Python 3.8+
 
 Core Libraries: scikit-learn, pandas, numpy
@@ -88,12 +90,13 @@ Core Libraries: scikit-learn, pandas, numpy
 Fairness & XAI: dalex (primary tool), fairlearn
 
 Balancing: imbalanced-learn (SMOTE, NearMiss)
+```
 
 ### 🤝 Contribution & Contact
 I am open to discussions about AI Ethics, Algorithmic Fairness, and Research Collaborations.
 
-Author: [Your Name]
+Author: [Luis Vinicius Lauriano de França]
 
-LinkedIn: [Link to your LinkedIn Profile]
+LinkedIn: [https://www.linkedin.com/in/luislauriano/]
 
 Research Focus: Bias Mitigation, XAI, LLM Ethics.
