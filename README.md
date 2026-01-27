@@ -31,15 +31,12 @@ masters_research/
 └── 📂 results/                  # DALEX fairness plots and metrics
 ```
 
-Key Features & Highlights:
-🛡️ Fairness Audit with DALEX: Implementation of fairness_check() using the Four-Fifths Rule (80% rule) to visually detect bias in classification models.
+Key Highlights & Snippets:
+🛡️ Fairness Audit with DALEX: Implementation of fairness_check() using the Four-Fifths Rule (80% rule) to visually detect bias.
 
-⚖️ Reweighting Implementation: A practical example of how to use Sample Reweighting (Inverse Frequency) to mitigate bias without generating synthetic data.
-
-📊 Trade-off Analysis: Notebooks demonstrating the impact of mitigation techniques on F1-Score vs. Equal Opportunity.
+⚖️ Reweighting Implementation: Practical example of Inverse Frequency Reweighting to mitigate bias without generating synthetic data.
 
 ```text
-Snippet of the logic used:
 # Example of calculating sample weights for bias mitigation
 from sklearn.utils.class_weight import compute_sample_weight
 
@@ -49,6 +46,7 @@ weights = compute_sample_weight(class_weight='balanced', y=y_train)
 # Training a fairness-aware model
 model.fit(X_train, y_train, sample_weight=weights)
 ```
+📊 Trade-off Analysis: Notebooks demonstrating the impact of mitigation techniques on F1-Score vs. Equal Opportunity.
 
 🔮 Part 2: Ph.D. Roadmap (LLMs)
 Focus: Treating Bias in Large Language Models in Specific Contexts
