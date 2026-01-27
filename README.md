@@ -48,7 +48,7 @@ model.fit(X_train, y_train, sample_weight=weights)
 ```
 📊 Trade-off Analysis: Notebooks demonstrating the impact of mitigation techniques on F1-Score vs. Equal Opportunity.
 
-🔮 Part 2: Ph.D. Roadmap (LLMs)
+### 🔮 Part 2: Ph.D. Roadmap (LLMs)
 Focus: Treating Bias in Large Language Models in Specific Contexts
 
 This section hosts the roadmap and experimental framework for developing new metrics and benchmarks to detect representational and allocational bias in LLMs, with a focus on Causal Fairness
@@ -80,7 +80,7 @@ Development of a Language-Agnostic Causal Metric: Design and validate a novel bi
 
 🚧 Content in this section is currently under active development.
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 Language: Python 3.8+
 
 Core Libraries: scikit-learn, pandas, numpy
@@ -89,7 +89,7 @@ Fairness & XAI: dalex (primary tool), fairlearn
 
 Balancing: imbalanced-learn (SMOTE, NearMiss)
 
-🤝 Contribution & Contact
+### 🤝 Contribution & Contact
 I am open to discussions about AI Ethics, Algorithmic Fairness, and Research Collaborations.
 
 Author: [Your Name]
