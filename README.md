@@ -29,6 +29,7 @@ masters_research/
 │
 ├── 📂 src/                      # Helper functions (Reweighting wrappers)
 └── 📂 results/                  # DALEX fairness plots and metrics
+```
 
 Key Features & Highlights:
 🛡️ Fairness Audit with DALEX: Implementation of fairness_check() using the Four-Fifths Rule (80% rule) to visually detect bias in classification models.
@@ -52,6 +53,7 @@ Focus: Treating Bias in Large Language Models in Specific Contexts
 
 This section hosts the roadmap and experimental framework for developing new metrics and benchmarks to detect representational and allocational bias in LLMs, with a focus on Causal Fairness
 
+```text
 phd_research/
 │
 ├── 📂 literature/               # Theoretical foundation & Surveys
@@ -67,6 +69,7 @@ phd_research/
 ├── 📂 experiments/              # Execution logs & Results
 │
 └── 📂 scripts/                  # Python scripts (Inference & Interventions)
+```
 
 Research Goals:
 Causal Analysis of Representational Bias: Investigate how sensitive attributes (e.g., race and gender) are encoded in the latent representation spaces of Large Language Models (LLMs), modeling representational bias as a causal effect within internal neural representations rather than as surface-level lexical correlations.
