@@ -38,6 +38,7 @@ Key Features & Highlights:
 
 📊 Trade-off Analysis: Notebooks demonstrating the impact of mitigation techniques on F1-Score vs. Equal Opportunity.
 
+```text
 Snippet of the logic used:
 # Example of calculating sample weights for bias mitigation
 from sklearn.utils.class_weight import compute_sample_weight
@@ -47,6 +48,7 @@ weights = compute_sample_weight(class_weight='balanced', y=y_train)
 
 # Training a fairness-aware model
 model.fit(X_train, y_train, sample_weight=weights)
+```
 
 🔮 Part 2: Ph.D. Roadmap (LLMs)
 Focus: Treating Bias in Large Language Models in Specific Contexts
