@@ -52,9 +52,11 @@ The core objective is to design a language-agnostic causal metric based on struc
 
 Formally, bias is modeled as the Average Treatment Effect (ATE) of a sensitive attribute \( A \) on an output variable \( Y \), defined as:
 
-\[
-\text{ATE} = \mathbb{E}[Y \mid do(A = a_1)] - \mathbb{E}[Y \mid do(A = a_0)]
-\]
+ATE = E[Y | do(A = a1)] − E[Y | do(A = a0)]
+
+where do(.) denotes a causal intervention on the sensitive attribute, 
+while keeping all other relevant semantic factors invariant.
+
 
 where the operator \( do(\cdot) \) denotes a causal intervention that modifies the sensitive attribute while preserving all other relevant semantic factors. This formulation enables disentangling causal effects from spurious correlations, lexical artifacts, and dataset-specific biases.
 
