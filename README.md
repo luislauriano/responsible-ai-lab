@@ -4,9 +4,9 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/Status-Active%20Research-green)](https://github.com/)
 
-**A central hub for research, development, and benchmarking in Fairness, Bias Mitigation, and Explainable AI (XAI).**
+This repository provides a unified research infrastructure for the systematic study of algorithmic fairness in natural language processing. It integrates code, datasets, experimental protocols, and literature developed during the author’s Master’s research on data balancing for bias mitigation, and establishes the methodological and computational foundation for the Ph.D. research on causal fairness in large language models (LLMs).
 
-This repository serves as a living portfolio of my academic journey. It consolidates the source code, datasets, and literature review from my **Master's Thesis** (Data Balacing to Mitigate Bias) and establishes the framework for my **Ph.D. Research** (LLMs, Causal Fairness & Context-Specific Bias).
+The repository is designed to support reproducible experimentation, algorithmic development, and continuous literature review, serving as a long-term platform for advancing causal approaches to bias detection and evaluation.
 
 ---
 
