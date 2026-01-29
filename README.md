@@ -81,7 +81,6 @@ phd_research/
 ```
 
 Research Goals:
-## Research Goals
 
 This PhD research aims to develop a novel causal algorithm for detecting and quantifying extrinsic bias in large language models (LLMs). The proposed approach formalizes bias as an identifiable causal effect, estimated through structured counterfactual interventions in latent representation spaces. The central objective is to design a language-agnostic causal metric capable of robustly measuring the impact of sensitive attributes on model behavior in both natural language understanding (NLU) and generation (NLG) tasks, with Portuguese serving as a primary experimental case study.
 
