@@ -26,9 +26,6 @@ masters_research/
 │
 ├── 📂 data/                     # Preprocessed datasets (e.g., German Credit)
 ├── 📂 notebooks/                # Jupyter Notebooks for experiments
-│
-├── 📂 src/                      # Helper functions (Reweighting wrappers)
-└── 📂 results/                  # DALEX fairness plots and metrics
 ```
 
 Key Highlights & Snippets:
@@ -49,9 +46,21 @@ model.fit(X_train, y_train, sample_weight=weights)
 📊 Trade-off Analysis: Notebooks demonstrating the impact of mitigation techniques on F1-Score vs. Equal Opportunity.
 
 ### 🔮 Part 2: Ph.D. Roadmap (LLMs)
-Focus: Treating Bias in Large Language Models in Specific Contexts
+This research is centered on the development of a novel causal algorithm for detecting and quantifying extrinsic bias in Large Language Models (LLMs). Rather than treating bias as a surface-level lexical phenomenon or a correlational artifact, the proposed approach formalizes bias as an identifiable causal effect arising from sensitive attributes (e.g., race and gender) on model outputs.
 
-This section hosts the roadmap and experimental framework for developing new metrics and benchmarks to detect representational and allocational bias in LLMs, with a focus on Causal Fairness
+The core objective is to design a language-agnostic causal metric based on structured counterfactual interventions in latent representation spaces, enabling statistically robust and semantically meaningful bias estimation across both natural language understanding (NLU) and generation (NLG) tasks.
+
+Formally, bias is modeled as the Average Treatment Effect (ATE) of a sensitive attribute \( A \) on an output variable \( Y \), defined as:
+
+\[
+\text{ATE} = \mathbb{E}[Y \mid do(A = a_1)] - \mathbb{E}[Y \mid do(A = a_0)]
+\]
+
+where the operator \( do(\cdot) \) denotes a causal intervention that modifies the sensitive attribute while preserving all other relevant semantic factors. This formulation enables disentangling causal effects from spurious correlations, lexical artifacts, and dataset-specific biases.
+
+The proposed algorithm performs controlled counterfactual interventions directly within the latent representation spaces of LLMs, rather than at the surface lexical level. This strategy allows the metric to remain invariant to language, vocabulary, and superficial syntactic variation, thereby enabling robust cross-linguistic and cross-domain generalization.
+
+Portuguese is adopted as a primary experimental case study, not as a target language per se, but as a validation environment to assess the generalization, robustness, and stability of the proposed causal framework under linguistic and sociocultural shifts.
 
 ```text
 phd_research/
@@ -61,9 +70,7 @@ phd_research/
 ├── 📂 models/                   # Model catalog (Open Source vs Proprietary)
 │
 ├── 📂 data/                     # Experimental datasets
-│   ├── 📂 prompts/              # Bias detection prompts (EN/PT-BR)
-│   └── experimental_sets/       # Curated datasets for benchmarking
-│
+│   
 ├── 📂 methodology/              # Causal formulation & Algorithms
 │
 ├── 📂 experiments/              # Execution logs & Results
@@ -72,11 +79,9 @@ phd_research/
 ```
 
 Research Goals:
-Causal Analysis of Representational Bias: Investigate how sensitive attributes (e.g., race and gender) are encoded in the latent representation spaces of Large Language Models (LLMs), modeling representational bias as a causal effect within internal neural representations rather than as surface-level lexical correlations.
+## Research Goals
 
-Causal Measurement of Allocational and Narrative Bias: Analyze how interventions on sensitive attributes causally influence LLM outputs in tasks of natural language understanding (NLU) and generation (NLG), particularly in the allocation of social roles, attribution of agency, and narrative framing, using controlled counterfactual interventions in the latent space.
-
-Development of a Language-Agnostic Causal Metric: Design and validate a novel bias evaluation metric based on causal inference principles, capable of estimating the Average Treatment Effect (ATE) of sensitive attributes on model outputs, independent of language, with Portuguese as a primary experimental case study.
+This PhD research aims to develop a novel causal algorithm for detecting and quantifying extrinsic bias in large language models (LLMs). The proposed approach formalizes bias as an identifiable causal effect, estimated through structured counterfactual interventions in latent representation spaces. The central objective is to design a language-agnostic causal metric capable of robustly measuring the impact of sensitive attributes on model behavior in both natural language understanding (NLU) and generation (NLG) tasks, with Portuguese serving as a primary experimental case study.
 
 🚧 Content in this section is currently under active development.
 
