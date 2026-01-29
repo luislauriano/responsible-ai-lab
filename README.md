@@ -62,7 +62,7 @@ where the operator $$\( do(\cdot) \)$$ denotes a causal intervention that modifi
 
 The proposed algorithm performs controlled counterfactual interventions directly within the latent representation spaces of LLMs, rather than at the surface lexical level. This strategy allows the metric to remain invariant to language, vocabulary, and superficial syntactic variation, thereby enabling robust cross-linguistic and cross-domain generalization.
 
-Portuguese is adopted as a primary experimental case study, not as a target language per se, but as a validation environment to assess the generalization, robustness, and stability of the proposed causal framework under linguistic and sociocultural shifts.
+Portuguese is adopted as a primary experimental case study, not as a target language, but as a validation environment to assess the generalization, robustness, and stability of the proposed causal framework under linguistic and sociocultural shifts.
 
 ```text
 phd_research/
