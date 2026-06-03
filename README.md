@@ -54,9 +54,7 @@ Formally, bias is modeled as the Average Treatment Effect (ATE) of a sensitive a
 
 
 
-$$
-\[ \text{ATE} = \mathbb{E}[Y \mid do(A = a_1)] - \mathbb{E}[Y \mid do(A = a_0)] \]
-$$
+$$\text{ATE} = \mathbb{E}[Y \mid do(A = a_1)] - \mathbb{E}[Y \mid do(A = a_0)]$$
 
 where the operator $$\( do(\cdot) \)$$ denotes a causal intervention that modifies the sensitive attribute while preserving all other relevant semantic factors. This formulation enables disentangling causal effects from spurious correlations, lexical artifacts, and dataset-specific biases.
 
